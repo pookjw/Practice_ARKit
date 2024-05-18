@@ -7,39 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F460B2F2BF7AF70006D744B /* Collect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F460B292BF7AF70006D744B /* Collect.wav */; };
-		4F460B302BF7AF70006D744B /* Die.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F460B2A2BF7AF70006D744B /* Die.wav */; };
-		4F460B312BF7AF70006D744B /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F460B2B2BF7AF70006D744B /* GameOver.wav */; };
-		4F460B322BF7AF70006D744B /* GameStart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F460B2C2BF7AF70006D744B /* GameStart.wav */; };
-		4F460B332BF7AF70006D744B /* Spawn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F460B2D2BF7AF70006D744B /* Spawn.wav */; };
-		83843F6024D3310900E7EF98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83843F5F24D3310900E7EF98 /* AppDelegate.swift */; };
-		83843F6224D3310900E7EF98 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83843F6124D3310900E7EF98 /* Scene.sks */; };
-		83843F6424D3310900E7EF98 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83843F6324D3310900E7EF98 /* Scene.swift */; };
-		83843F6624D3310900E7EF98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83843F6524D3310900E7EF98 /* ViewController.swift */; };
-		83843F6924D3310900E7EF98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83843F6724D3310900E7EF98 /* Main.storyboard */; };
-		83843F6B24D3310A00E7EF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83843F6A24D3310A00E7EF98 /* Assets.xcassets */; };
-		83843F6E24D3310A00E7EF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83843F6C24D3310A00E7EF98 /* LaunchScreen.storyboard */; };
+		4FCA32892BF89CEC0052B476 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCA32882BF89CEC0052B476 /* art.scnassets */; };
+		830B81FA24E3F75B00C4DD73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830B81F924E3F75B00C4DD73 /* AppDelegate.swift */; };
+		830B81FE24E3F75B00C4DD73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830B81FD24E3F75B00C4DD73 /* ViewController.swift */; };
+		830B820124E3F75B00C4DD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830B81FF24E3F75B00C4DD73 /* Main.storyboard */; };
+		830B820324E3F75E00C4DD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830B820224E3F75E00C4DD73 /* Assets.xcassets */; };
+		830B820624E3F75E00C4DD73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830B820424E3F75E00C4DD73 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F460B292BF7AF70006D744B /* Collect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Collect.wav; sourceTree = "<group>"; };
-		4F460B2A2BF7AF70006D744B /* Die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Die.wav; sourceTree = "<group>"; };
-		4F460B2B2BF7AF70006D744B /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
-		4F460B2C2BF7AF70006D744B /* GameStart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameStart.wav; sourceTree = "<group>"; };
-		4F460B2D2BF7AF70006D744B /* Spawn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Spawn.wav; sourceTree = "<group>"; };
-		83843F5C24D3310900E7EF98 /* EmojiPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		83843F5F24D3310900E7EF98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83843F6124D3310900E7EF98 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
-		83843F6324D3310900E7EF98 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
-		83843F6524D3310900E7EF98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83843F6824D3310900E7EF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83843F6A24D3310A00E7EF98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83843F6D24D3310A00E7EF98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83843F6F24D3310A00E7EF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FCA32882BF89CEC0052B476 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		830B81F624E3F75B00C4DD73 /* ARPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830B81F924E3F75B00C4DD73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		830B81FD24E3F75B00C4DD73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		830B820024E3F75B00C4DD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		830B820224E3F75E00C4DD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		830B820524E3F75E00C4DD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		830B820724E3F75E00C4DD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83843F5924D3310900E7EF98 /* Frameworks */ = {
+		830B81F324E3F75B00C4DD73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,85 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F460B2E2BF7AF70006D744B /* SoundEffects */ = {
+		830B81ED24E3F75B00C4DD73 = {
 			isa = PBXGroup;
 			children = (
-				4F460B292BF7AF70006D744B /* Collect.wav */,
-				4F460B2A2BF7AF70006D744B /* Die.wav */,
-				4F460B2B2BF7AF70006D744B /* GameOver.wav */,
-				4F460B2C2BF7AF70006D744B /* GameStart.wav */,
-				4F460B2D2BF7AF70006D744B /* Spawn.wav */,
-			);
-			path = SoundEffects;
-			sourceTree = "<group>";
-		};
-		83843F5324D3310900E7EF98 = {
-			isa = PBXGroup;
-			children = (
-				83843F5E24D3310900E7EF98 /* EmojiPop */,
-				83843F5D24D3310900E7EF98 /* Products */,
+				830B81F824E3F75B00C4DD73 /* ARPort */,
+				830B81F724E3F75B00C4DD73 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		83843F5D24D3310900E7EF98 /* Products */ = {
+		830B81F724E3F75B00C4DD73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83843F5C24D3310900E7EF98 /* EmojiPop.app */,
+				830B81F624E3F75B00C4DD73 /* ARPort.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83843F5E24D3310900E7EF98 /* EmojiPop */ = {
+		830B81F824E3F75B00C4DD73 /* ARPort */ = {
 			isa = PBXGroup;
 			children = (
-				83843F5F24D3310900E7EF98 /* AppDelegate.swift */,
-				83843F6124D3310900E7EF98 /* Scene.sks */,
-				83843F6324D3310900E7EF98 /* Scene.swift */,
-				83843F6524D3310900E7EF98 /* ViewController.swift */,
-				83843F6724D3310900E7EF98 /* Main.storyboard */,
-				83843F6A24D3310A00E7EF98 /* Assets.xcassets */,
-				83843F6C24D3310A00E7EF98 /* LaunchScreen.storyboard */,
-				83843F6F24D3310A00E7EF98 /* Info.plist */,
-				4F460B2E2BF7AF70006D744B /* SoundEffects */,
+				4FCA32882BF89CEC0052B476 /* art.scnassets */,
+				830B81F924E3F75B00C4DD73 /* AppDelegate.swift */,
+				830B81FD24E3F75B00C4DD73 /* ViewController.swift */,
+				830B81FF24E3F75B00C4DD73 /* Main.storyboard */,
+				830B820224E3F75E00C4DD73 /* Assets.xcassets */,
+				830B820424E3F75E00C4DD73 /* LaunchScreen.storyboard */,
+				830B820724E3F75E00C4DD73 /* Info.plist */,
 			);
-			path = EmojiPop;
+			path = ARPort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83843F5B24D3310900E7EF98 /* EmojiPop */ = {
+		830B81F524E3F75B00C4DD73 /* ARPort */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83843F7224D3310A00E7EF98 /* Build configuration list for PBXNativeTarget "EmojiPop" */;
+			buildConfigurationList = 830B820A24E3F75E00C4DD73 /* Build configuration list for PBXNativeTarget "ARPort" */;
 			buildPhases = (
-				83843F5824D3310900E7EF98 /* Sources */,
-				83843F5924D3310900E7EF98 /* Frameworks */,
-				83843F5A24D3310900E7EF98 /* Resources */,
+				830B81F224E3F75B00C4DD73 /* Sources */,
+				830B81F324E3F75B00C4DD73 /* Frameworks */,
+				830B81F424E3F75B00C4DD73 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EmojiPop;
-			productName = EmojiPop;
-			productReference = 83843F5C24D3310900E7EF98 /* EmojiPop.app */;
+			name = ARPort;
+			productName = ARPort;
+			productReference = 830B81F624E3F75B00C4DD73 /* ARPort.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83843F5424D3310900E7EF98 /* Project object */ = {
+		830B81EE24E3F75B00C4DD73 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					83843F5B24D3310900E7EF98 = {
+					830B81F524E3F75B00C4DD73 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = 83843F5724D3310900E7EF98 /* Build configuration list for PBXProject "EmojiPop" */;
+			buildConfigurationList = 830B81F124E3F75B00C4DD73 /* Build configuration list for PBXProject "ARPort" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,61 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 83843F5324D3310900E7EF98;
-			productRefGroup = 83843F5D24D3310900E7EF98 /* Products */;
+			mainGroup = 830B81ED24E3F75B00C4DD73;
+			productRefGroup = 830B81F724E3F75B00C4DD73 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83843F5B24D3310900E7EF98 /* EmojiPop */,
+				830B81F524E3F75B00C4DD73 /* ARPort */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		83843F5A24D3310900E7EF98 /* Resources */ = {
+		830B81F424E3F75B00C4DD73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F460B2F2BF7AF70006D744B /* Collect.wav in Resources */,
-				4F460B322BF7AF70006D744B /* GameStart.wav in Resources */,
-				83843F6224D3310900E7EF98 /* Scene.sks in Resources */,
-				4F460B312BF7AF70006D744B /* GameOver.wav in Resources */,
-				83843F6E24D3310A00E7EF98 /* LaunchScreen.storyboard in Resources */,
-				4F460B302BF7AF70006D744B /* Die.wav in Resources */,
-				83843F6B24D3310A00E7EF98 /* Assets.xcassets in Resources */,
-				83843F6924D3310900E7EF98 /* Main.storyboard in Resources */,
-				4F460B332BF7AF70006D744B /* Spawn.wav in Resources */,
+				830B820624E3F75E00C4DD73 /* LaunchScreen.storyboard in Resources */,
+				4FCA32892BF89CEC0052B476 /* art.scnassets in Resources */,
+				830B820324E3F75E00C4DD73 /* Assets.xcassets in Resources */,
+				830B820124E3F75B00C4DD73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83843F5824D3310900E7EF98 /* Sources */ = {
+		830B81F224E3F75B00C4DD73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83843F6624D3310900E7EF98 /* ViewController.swift in Sources */,
-				83843F6424D3310900E7EF98 /* Scene.swift in Sources */,
-				83843F6024D3310900E7EF98 /* AppDelegate.swift in Sources */,
+				830B81FE24E3F75B00C4DD73 /* ViewController.swift in Sources */,
+				830B81FA24E3F75B00C4DD73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83843F6724D3310900E7EF98 /* Main.storyboard */ = {
+		830B81FF24E3F75B00C4DD73 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83843F6824D3310900E7EF98 /* Base */,
+				830B820024E3F75B00C4DD73 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		83843F6C24D3310A00E7EF98 /* LaunchScreen.storyboard */ = {
+		830B820424E3F75E00C4DD73 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83843F6D24D3310A00E7EF98 /* Base */,
+				830B820524E3F75E00C4DD73 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -197,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		83843F7024D3310A00E7EF98 /* Debug */ = {
+		830B820824E3F75E00C4DD73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		83843F7124D3310A00E7EF98 /* Release */ = {
+		830B820924E3F75E00C4DD73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,38 +281,38 @@
 			};
 			name = Release;
 		};
-		83843F7324D3310A00E7EF98 /* Debug */ = {
+		830B820B24E3F75E00C4DD73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P53D29U9LJ;
-				INFOPLIST_FILE = EmojiPop/Info.plist;
+				INFOPLIST_FILE = ARPort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.EmojiPop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.ARPort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		83843F7424D3310A00E7EF98 /* Release */ = {
+		830B820C24E3F75E00C4DD73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P53D29U9LJ;
-				INFOPLIST_FILE = EmojiPop/Info.plist;
+				INFOPLIST_FILE = ARPort/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.EmojiPop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.ARPort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83843F5724D3310900E7EF98 /* Build configuration list for PBXProject "EmojiPop" */ = {
+		830B81F124E3F75B00C4DD73 /* Build configuration list for PBXProject "ARPort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83843F7024D3310A00E7EF98 /* Debug */,
-				83843F7124D3310A00E7EF98 /* Release */,
+				830B820824E3F75E00C4DD73 /* Debug */,
+				830B820924E3F75E00C4DD73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83843F7224D3310A00E7EF98 /* Build configuration list for PBXNativeTarget "EmojiPop" */ = {
+		830B820A24E3F75E00C4DD73 /* Build configuration list for PBXNativeTarget "ARPort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83843F7324D3310A00E7EF98 /* Debug */,
-				83843F7424D3310A00E7EF98 /* Release */,
+				830B820B24E3F75E00C4DD73 /* Debug */,
+				830B820C24E3F75E00C4DD73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83843F5424D3310900E7EF98 /* Project object */;
+	rootObject = 830B81EE24E3F75B00C4DD73 /* Project object */;
 }

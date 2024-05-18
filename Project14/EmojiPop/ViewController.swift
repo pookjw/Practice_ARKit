@@ -84,6 +84,11 @@ class ViewController: UIViewController, ARSKViewDelegate {
     boxNode.zPosition = 100
     boxNode.setScale(1.5)
     spawnNode.addChild(boxNode)
+      
+      boxNode.setScale(0)
+      let startSoundAction = SKAction.playSoundFileNamed("SoundEffects/GameStart.wav", waitForCompletion: false)
+      let scaleInAction = SKAction.scale(to: 1.5, duration: 0.8)
+      boxNode.run(.sequence([startSoundAction, scaleInAction]))
     return spawnNode
   }
   
